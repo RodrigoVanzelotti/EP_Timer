@@ -17,7 +17,7 @@ app.layout = dbc.Container([
             dbc.Col(html.H1("Faltam 👇 pro EP", className="text-center mt-5"))
         ]),
         dbc.Row([
-            dbc.Col(html.H2(id="timer", style={"fontSize": "96px", "fontWeight": "bold"}, className="text-center mt-5"))
+            dbc.Col(html.H2(id="timer", style={"fontSize": "76px", "fontWeight": "bold"}, className="text-center mt-5"))
         ]),
         dbc.Row([
             dbc.Col([
