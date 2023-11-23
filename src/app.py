@@ -37,7 +37,7 @@ def update_timer(n):
     if time_left.total_seconds() > 0:
         return str(time_left).split('.')[0]  # Remove a parte dos microssegundos
     else:
-        return "Countdown Finished!"
+        return "EP PORRA!"
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=True)
