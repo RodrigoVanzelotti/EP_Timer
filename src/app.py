@@ -2,14 +2,15 @@ from dash import dcc, Output, Input, Dash, html
 from datetime import datetime, timedelta
 import dash_bootstrap_components as dbc
 
-app = Dash(__name__)
-server = app.server
+# app = Dash(__name__)
 
 
 # Defina a data e hora do término do countdown
 target_date = datetime(2024, 5, 30, 23, 59, 59)
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
+app.title = 'VanzeTimer' 
 
 app.layout = dbc.Container([
         dbc.Row([
